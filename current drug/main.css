@@ -1,0 +1,95 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+.column {
+	flex-basis: 25%;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	margin-top: 0;
+}
+
+p {
+	margin-bottom: 20px;
+}
+.image{
+    width: 80px;
+    height: 80px;
+}
+
+
+/* footer start from here */
+
+footer{
+    background: linear-gradient(#14D7B0 1%, #03799A 22%, #03799A 67%, #09C1EA 100%);
+    color: white;
+    padding: 50px 0;
+    font-size: 14px;
+}
+
+footer .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+footer .title{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    margin-bottom: 30px;
+    padding: 0 0 5px 0;
+    cursor: pointer;
+}
+
+footer p {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+footer .linksContainer ul {
+    list-style: none;
+}
+
+footer .linksContainer ul li a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+footer .newsLetterContainer img{
+    height: 40px;
+    margin-bottom: 11px;
+}
+
+footer .newsLetterContainer input{
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+    border-radius: 30px;
+}
+
+/* footer ends here */
